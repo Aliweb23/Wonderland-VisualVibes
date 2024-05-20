@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #e61414;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+
+        .project {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            flex-basis: 30%;
+            margin: 1%;
+            padding: 1rem;
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        .project h3 {
+            margin: 0 0 0.5rem 0;
+        }
+
+        .project p {
+            margin: 0;
+        }
+
+        .contact {
+            background-color: #f80d0d;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .contact a {
+            background-color: #fff;
+            border: none;
+            color: #333;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                flex-basis: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .project {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>My Portfolio</h1>
+    </header>
+    <main class="main">
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+
+        <!-- ########################################### -->
+
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+
+        <!-- ######################################################## -->
+
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <figure>
+                <h2>das Bild</h2>
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+            <figure>
+                <!-- <h2>das Bild</h2> -->
+                <img src="images/1.png" alt="Bild-1">
+                <p>Lorem ipsum dolor sit amet.</p>
+                <a href="">Jetzt ansehen!</a>
+            </figure>
+        </div>
+    </main>
+    <footer class="contact">
+        <h2>Contact Me</h2>
+        <a href="mailto:email@example.com">email@example.com</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
