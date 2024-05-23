@@ -10,6 +10,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #050404;
         }
 
         .header {
@@ -32,16 +33,22 @@
         }
 
         .project {
-            background-color: #f4f4f4;
+            background-color: #fff;
             border: 1px solid #ddd;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
             flex-basis: 30%;
             margin: 1%;
             padding: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
         }
 
         .project img {
             max-width: 100%;
+            height: auto;
         }
 
         .project h3 {
@@ -50,6 +57,31 @@
 
         .project p {
             margin: 0;
+        }
+
+        .project figure {
+            margin: 1rem 0 0 0;
+        }
+
+        .project figure img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project figure p {
+            margin: 0.5rem 0 0 0;
+        }
+
+        .project figure a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #e61414;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project figure a:hover {
+            text-decoration: underline;
         }
 
         .contact {
@@ -65,6 +97,12 @@
             color: #333;
             padding: 0.5rem 1rem;
             text-decoration: none;
+            display: inline-block;
+            margin-top: 0.5rem;
+        }
+
+        .contact a:hover {
+            background-color: #ddd;
         }
 
         @media (max-width: 768px) {
@@ -90,10 +128,9 @@
             <h3>Project 1</h3>
             <p>Description of Project 1</p>
             <figure>
-                <!-- <h2>das Bild</h2> -->
                 <img src="images/1.png" alt="Bild-1">
                 <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
+                <a href="#">Jetzt ansehen!</a>
             </figure>
         </div>
         <div class="project">
@@ -101,10 +138,9 @@
             <h3>Project 2</h3>
             <p>Description of Project 2</p>
             <figure>
-                <!-- <h2>das Bild</h2> -->
                 <img src="images/1.png" alt="Bild-1">
                 <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
+                <a href="#">Jetzt ansehen!</a>
             </figure>
         </div>
         <div class="project">
@@ -112,81 +148,9 @@
             <h3>Project 3</h3>
             <p>Description of Project 3</p>
             <figure>
-                <!-- <h2>das Bild</h2> -->
                 <img src="images/1.png" alt="Bild-1">
                 <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
-            </figure>
-        </div>
-
-        <!-- ########################################### -->
-
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of Project 1</p>
-            <figure>
-                <!-- <h2>das Bild</h2> -->
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
-            </figure>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of Project 2</p>
-            <figure>
-                <!-- <h2>das Bild</h2> -->
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
-            </figure>
-        </div>
-        <div class="project">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>Description of Project 3</p>
-            <figure>
-                <!-- <h2>das Bild</h2> -->
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
-            </figure>
-        </div>
-
-        <!-- ######################################################## -->
-
-        <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of Project 1</p>
-            <figure>
-                <h2>das Bild</h2>
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-            </figure>
-        </div>
-        <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of Project 2</p>
-            <figure>
-                <!-- <h2>das Bild</h2> -->
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
-            </figure>
-        </div>
-        <div class="project">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>Description of Project 3</p>
-            <figure>
-                <!-- <h2>das Bild</h2> -->
-                <img src="images/1.png" alt="Bild-1">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <a href="">Jetzt ansehen!</a>
+                <a href="#">Jetzt ansehen!</a>
             </figure>
         </div>
     </main>
