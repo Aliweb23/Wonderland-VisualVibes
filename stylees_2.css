@@ -62,9 +62,10 @@ body {
 .project figure img {
     max-width: 100%;
     width: 400px;
-    height: 300px;
+    height: 400px;
     border: 2px solid rgb(28, 27, 27);
     border-radius: 3%;
+    box-shadow: 4px 4px 8px rgba(51, 37, 243, 0.775);
 }
 
 .project figure p {
