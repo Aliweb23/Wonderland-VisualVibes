@@ -84,6 +84,12 @@ body {
 .project figure a:hover {
     text-decoration: underline;
 }
+.project .p-img{
+    border-radius: 100%; 
+    border: 2px solid red; 
+    width: 50px; 
+    height: auto; 
+}
 
 .contact {
     background-color: #f80d0d;
