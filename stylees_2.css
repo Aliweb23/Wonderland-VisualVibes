@@ -27,7 +27,8 @@ body {
 .project {
     background-color: #fff;
     border: 1px solid #ddd;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(242, 22, 22, 0.943), 2px 2px 5px rgba(237, 28, 171, 0.943),
+                4px 5px 6px rgba(134, 217, 33, 0.943), 4px 5px 6px rgba(242, 22, 22, 0.943),6px 6px 6px rgba(242, 22, 22, 0.943);
     flex-basis: 30%;
     margin: 1%;
     padding: 1rem;
@@ -36,6 +37,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-radius: 10%;
 }
 
  .project:hover {
